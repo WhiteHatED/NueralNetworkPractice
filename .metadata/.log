@@ -1,0 +1,188 @@
+!SESSION 2015-12-19 23:50:45.251 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Hulto/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-12-19 23:52:30.510
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-12-19 23:52:34.669
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-12-19 23:52:34.671
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-19 23:52:35.086
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-12-19 23:52:41.601
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2015-12-19 23:52:41.604
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY org.eclipse.ui 4 4 2015-12-19 23:53:33.821
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.apache.log4j 4 0 2015-12-19 23:54:01.418
+!MESSAGE org.eclipse.xtext.internal.ResourceServiceProviderDescriptor  - org/eclipse/xtext/common/types/DefaultCommonTypesRuntimeModule
+
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/xtext/common/types/DefaultCommonTypesRuntimeModule
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.defineClass(ModuleClassLoader.java:272)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.defineClass(ClasspathManager.java:632)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:588)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:540)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:527)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.defineClass(ModuleClassLoader.java:272)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.defineClass(ClasspathManager.java:632)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:588)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:540)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:527)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.fx.ide.css.ui.internal.CssDslActivator.getRuntimeModule(CssDslActivator.java:77)
+	at org.eclipse.fx.ide.css.ui.internal.CssDslActivator.createInjector(CssDslActivator.java:63)
+	at org.eclipse.fx.ide.css.ui.internal.CssDslActivator.getInjector(CssDslActivator.java:55)
+	at org.eclipse.fx.ide.css.ui.CssDslExecutableExtensionFactory.getInjector(CssDslExecutableExtensionFactory.java:26)
+	at org.eclipse.xtext.ui.guice.AbstractGuiceAwareExecutableExtensionFactory.create(AbstractGuiceAwareExecutableExtensionFactory.java:49)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:262)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.xtext.internal.ResourceServiceProviderDescriptor.get(ResourceServiceProviderDescriptor.java:39)
+	at org.eclipse.xtext.resource.impl.ResourceServiceProviderRegistryImpl$InternalData.getServiceProvider(ResourceServiceProviderRegistryImpl.java:46)
+	at org.eclipse.xtext.resource.impl.ResourceServiceProviderRegistryImpl.getResourceServiceProvider(ResourceServiceProviderRegistryImpl.java:108)
+	at org.eclipse.xtext.resource.impl.ResourceServiceProviderRegistryImpl.getResourceServiceProvider(ResourceServiceProviderRegistryImpl.java:124)
+	at org.eclipse.xtext.ui.resource.UriValidator.isValid(UriValidator.java:27)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl$1.getURI(Storage2UriMapperJavaImpl.java:270)
+	at org.eclipse.xtext.ui.resource.SourceAttachmentPackageFragmentRootWalker.handle(SourceAttachmentPackageFragmentRootWalker.java:279)
+	at org.eclipse.xtext.ui.resource.PackageFragmentRootWalker.traverse(PackageFragmentRootWalker.java:100)
+	at org.eclipse.xtext.ui.resource.PackageFragmentRootWalker.traverse(PackageFragmentRootWalker.java:88)
+	at org.eclipse.xtext.ui.resource.PackageFragmentRootWalker.traverse(PackageFragmentRootWalker.java:65)
+	at org.eclipse.xtext.ui.resource.SourceAttachmentPackageFragmentRootWalker.traverse(SourceAttachmentPackageFragmentRootWalker.java:168)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.initializeData(Storage2UriMapperJavaImpl.java:283)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.getCachedData(Storage2UriMapperJavaImpl.java:221)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.updateCache(Storage2UriMapperJavaImpl.java:372)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.initializeCache(Storage2UriMapperJavaImpl.java:416)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperImpl.initializeCache(Storage2UriMapperImpl.java:149)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.load(AbstractBuilderState.java:62)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.ensureLoaded(AbstractBuilderState.java:69)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.getExportedObjects(AbstractBuilderState.java:192)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.isDerived(DeltaConverter.java:279)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.isDerived(DeltaConverter.java:271)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertNewType(DeltaConverter.java:220)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertNewTypes(DeltaConverter.java:208)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertAddedPackageFragment(DeltaConverter.java:383)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertPackageFragment(DeltaConverter.java:370)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:360)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:357)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:357)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:357)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convert(DeltaConverter.java:133)
+	at org.eclipse.xtext.builder.impl.javasupport.JavaChangeQueueFiller.elementChanged(JavaChangeQueueFiller.java:37)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1695)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1685)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1519)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1495)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2107)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.xtext.common.types.DefaultCommonTypesRuntimeModule cannot be found by org.eclipse.fx.ide.css_2.0.0.201506111511
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 84 more
+
+!ENTRY org.apache.log4j 4 0 2015-12-19 23:54:01.420
+!MESSAGE org.eclipse.xtext.resource.impl.ResourceServiceProviderRegistryImpl  - Errorneous resource service provider registered for 'archive:file:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar!/javax/swing/text/html/default.css'. Removing it from the registry.
+
+!STACK 0
+java.lang.ClassCastException: The type null is not a valid interface org.eclipse.xtext.resource.IResourceServiceProvider or interface org.eclipse.xtext.resource.IResourceServiceProvider$Provider contributed by org.eclipse.fx.ide.css.ui[934]
+	at org.eclipse.xtext.internal.ResourceServiceProviderDescriptor.get(ResourceServiceProviderDescriptor.java:59)
+	at org.eclipse.xtext.resource.impl.ResourceServiceProviderRegistryImpl$InternalData.getServiceProvider(ResourceServiceProviderRegistryImpl.java:46)
+	at org.eclipse.xtext.resource.impl.ResourceServiceProviderRegistryImpl.getResourceServiceProvider(ResourceServiceProviderRegistryImpl.java:108)
+	at org.eclipse.xtext.resource.impl.ResourceServiceProviderRegistryImpl.getResourceServiceProvider(ResourceServiceProviderRegistryImpl.java:124)
+	at org.eclipse.xtext.ui.resource.UriValidator.isValid(UriValidator.java:27)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl$1.getURI(Storage2UriMapperJavaImpl.java:270)
+	at org.eclipse.xtext.ui.resource.SourceAttachmentPackageFragmentRootWalker.handle(SourceAttachmentPackageFragmentRootWalker.java:279)
+	at org.eclipse.xtext.ui.resource.PackageFragmentRootWalker.traverse(PackageFragmentRootWalker.java:100)
+	at org.eclipse.xtext.ui.resource.PackageFragmentRootWalker.traverse(PackageFragmentRootWalker.java:88)
+	at org.eclipse.xtext.ui.resource.PackageFragmentRootWalker.traverse(PackageFragmentRootWalker.java:65)
+	at org.eclipse.xtext.ui.resource.SourceAttachmentPackageFragmentRootWalker.traverse(SourceAttachmentPackageFragmentRootWalker.java:168)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.initializeData(Storage2UriMapperJavaImpl.java:283)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.getCachedData(Storage2UriMapperJavaImpl.java:221)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.updateCache(Storage2UriMapperJavaImpl.java:372)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.initializeCache(Storage2UriMapperJavaImpl.java:416)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperImpl.initializeCache(Storage2UriMapperImpl.java:149)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.load(AbstractBuilderState.java:62)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.ensureLoaded(AbstractBuilderState.java:69)
+	at org.eclipse.xtext.builder.builderState.AbstractBuilderState.getExportedObjects(AbstractBuilderState.java:192)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.isDerived(DeltaConverter.java:279)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.isDerived(DeltaConverter.java:271)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertNewType(DeltaConverter.java:220)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertNewTypes(DeltaConverter.java:208)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertAddedPackageFragment(DeltaConverter.java:383)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertPackageFragment(DeltaConverter.java:370)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:360)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:357)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:357)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convertCompilationUnits(DeltaConverter.java:357)
+	at org.eclipse.xtext.common.types.ui.notification.DeltaConverter.convert(DeltaConverter.java:133)
+	at org.eclipse.xtext.builder.impl.javasupport.JavaChangeQueueFiller.elementChanged(JavaChangeQueueFiller.java:37)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1695)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1685)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1519)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1495)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2107)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
